@@ -12,9 +12,7 @@ function Header() {
                 </Link>
                 <div className="hidden xl:flex items-center gap-8">
                 <Nav />
-                <Link href="/contact">
-                    <button>Hire me</button>
-                </Link>
+                <button className="hover:text-accent"><Link href="/contact">Hire me</Link></button>
                 </div>
                 <div className="xl:hidden">
                     <MobileNav />
